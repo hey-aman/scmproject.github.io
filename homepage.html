@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Advisor</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Bree+Serif&display=swap"
+        rel="stylesheet">
+    <!-- css file -->
+    <link rel="stylesheet" href="homepage.css">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <!-- header section -->
+
+    <header class="header">
+
+        <a data-aos="zoom-in-left" data-aos-delay="150" id="menubtn" href=".navbar a"><i class="fas fa-bars"></i></a>
+
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"><i class="fas fa-paper-plane"></i> Trip Advisor</a>
+
+        <nav class="navbar">
+            <a href="#home" data-aos="zoom-in-left" data-aos-delay="450">Home</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">About</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="#destination">Destination</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="#services">Services</a>
+            <a data-aos="zoom-in-left" data-aos-delay="900" href="#gallery">Gallery</a>
+            <a data-aos="zoom-in-left" data-aos-delay="1150" href="#contact">Contact</a>
+        </nav>
+
+
+        <a href="signup.html"><button data-aos="zoom-in-left" data-aos-delay="150" class="btn">sign up</button></a>
+
+    </header>
+
+    <!-- home section  -->
+
+    <section class="home" id="home">
+        <div class="contents">
+            <span data-aos="fade-up" data-aos-delay="150" class="follow">to travel</span>
+            <h3 data-aos="fade-up" data-aos-delay="300">is to live</h3>
+            <p data-aos="fade-up" data-aos-delay="450" class="firstp">you don't need magic to dissappear all you need is a destination</p>
+            <a data-aos="fade-up" data-aos-delay="600" href="loginpage.html" class="btn">Login now</a>
+        </div>
+    </section>
+
+    <!-- booking form section starts -->
+
+    <section class="booking">
+        <form action="">
+            <div data-aos="zoom-in" data-aos-delay="150" class="inputbox">
+                <span>Where to?</span>
+                <input type="text" placeholder="Enter Your Place">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="300" class="inputbox">
+                <span>When?</span>
+                <input type="date">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="450" class="inputbox">
+                <span>how many?</span>
+                <input type="number" placeholder="Number Of Travelers">
+            </div>
+            <div class="inputbox">
+                <a href="#destination"><input data-aos="zoom-in" data-aos-delay="600" type="" value="find now" class="btn" style="text-align:center"></a>
+            </div>
+        </form>
+    </section>
+
+    <!-- about section  -->
+
+    <section class="about" id="about">
+
+        <div data-aos="fade-right" data-aos-delay="500" class="video-container">
+            <video src="/about-vid-1.mp4" muted autoplay loop class="video"></video>
+            <!-- <div class="controls">
+                <span class="control-btn"><a href="/about-vid-1.mp4"></a></span>
+                <span class="control-btn"><a href="/about-vid-2.mp4"></a></span>
+                <span class="control-btn"><a href="/about-vid-3.mp4"></a></span>
+            </div> -->
+            <div data-aos="fade-left" data-aos-delay="600" class="controls">
+                <a href="/about-vid-1.mp4"><span class="control-btn"></span></a>
+                <a href="/about-vid-2.mp4"><span class="control-btn"></span></a>
+                <a href="/about-vid-3.mp4"><span class="control-btn"></span></a>
+            </div>
+        </div>
+
+        <div class="content">
+            <span class="secondary">why choose us?</span>
+            <h3 class="third">Nature's Majesty Awaits You</h3>
+            <span class="fourth">lifelong memories are just a few seconds away let's starts your journey with us. your dreams will come true</span>
+            <a href="loginpage.html" class="btn">login now</a>
+        </div>
+    </section>
+
+    <!-- destination section  -->
+
+    <section class="destination" id="destination">
+        <div class="heading">
+            <span class="second">our destination</span>
+            <h1>make your destination</h1>
+        </div>
+
+        <div class="box-container">
+            <div class="line1">
+
+                <div data-aos="fade-up" data-aos-delay="100" class="box1" id="box">
+                    <div class="image">
+                        <a href="religiousoption.html"><img src="/religious.jpg" alt=""></a>
+                    </div>
+                    <div class="content1">
+                        <h3>religious places</h3>
+                        <p>Those who understand the eternal blessings which come from the temple know that no sacrifice <br> is too great, in order to receive those blessings.
+                            <a href="religiousoption.html">view more <i class="fas fa-angle-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="250" class="box2" id="box">
+                    <div class="image">
+                        <a href="option.html"><img src="/monument.jpg" alt=""></a>
+                    </div>
+                    <div class="content1">
+                        <h3>monuments</h3>
+                        <p>the past speaks in the language of monuments. they are not cemented bricks, they are proof<br> of historical events.
+                            <a href="option.html">view more <i class="fas fa-angle-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="400" class="box3" id="box">
+                    <div class="image">
+                        <a href="hillstationoptions.html"><img src="/hillstation.jpg" alt=""></a>
+                    </div>
+                    <div class="content1">
+                        <h3>hill station</h3>
+                        <p>we like the mountains because they make us feel small. they help us sort out what's important in life.<br>
+                            <a href="hillstationoptions.html">view more <i class="fas fa-angle-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="line2">
+                <div data-aos="fade-up" data-aos-delay="500" class="box4" id="box">
+                    <div class="image">
+                        <a href="beachoption.html"><img src="Baga Beach.jpg" alt=""></a>
+                    </div>
+                    <div class="content1">
+                        <h3>beaches</h3>
+                        <p>life take you down many paths, but your favourite ones lead you to the beach.<br>
+                            <a href="beachoption.html">view more <i class="fas fa-angle-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="650" class="box5" id="box">
+                    <div class="image">
+                        <a href="adventure.option.html"><img src="adventure.jpg" alt=""></a>
+                    </div>
+                    <div class="content1">
+                        <h3>adventure places</h3>
+                        <p>Only those who can take risk to going too far can possibly find out how far they can go.<br>
+                            <a href="adventure.option.html">view more <i class="fas fa-angle-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="800" class="box6" id="box">
+                    <div class="image">
+                        <a href="parksoption.html"><img src="/parks.jpeg" alt=""></a>
+                    </div>
+                    <div class="content1">
+                        <h3>parks</h3>
+                        <p>park is a place to park worries, imbibe nature, remided of gods blessings and to learn to stand up like a tree to face life's weather.<br>
+                            <a href="parksoption.html">view more <i class="fas fa-angle-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section  -->
+
+    <section class="services" id="services">
+        <div class="head">
+            <span>our services</span>
+            <h1>conuntless experience</h1>
+        </div>
+
+        <div class="box-container">
+            <div class="line3">
+                <div data-aos="zoom-in-up" data-aos-delay="150" class="box7" id="boxes">
+                    <i class="fas fa-globe"></i>
+                    <h3>travel india</h3>
+                    <p>to other countries , I may go as a tourist , but to India , I come as a pilgrim</p>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-delay="300" class="box8" id="boxes">
+                    <i class="fas fa-hotel"></i>
+                    <h3>affordable hotels</h3>
+                    <p>We provide you best facilities in hotels in reasonable price ,stay with us, feel at home.</p>
+                </div>
+            </div>
+            <div class="line4">
+                <div data-aos="zoom-in-up" data-aos-delay="450" class="box9" id="boxes">
+                    <i class="fas fa-hiking"></i>
+                    <h3>adventure</h3>
+                    <p>fill your life with adventures , not things. Have stories to tell not stuff to show.</p>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-delay="600" class="box10" id="boxes">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 support</h3>
+                    <p>we have come up with 24 hours facility and service to make your journey the best</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery section -->
+
+    <section class="gallery" id="gallery">
+        <div class="top">
+            <span>our gallery</span>
+            <h1>we record memories</h1>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gbox1">
+                <div data-aos="flip-left" data-aos-delay="100" class="gbox">
+                    <img src="/image1.jpg" alt="" class="image1">
+                    <span>travel spot</span>
+                    <h3>india</h3>
+                </div>
+                <div data-aos="flip-left" data-aos-delay="200" class="gbox">
+                    <img src="/image2.jpg" alt="" class="image2">
+                    <span>travel spot</span>
+                    <h3>india</h3>
+                </div>
+                <div data-aos="flip-left" data-aos-delay="300" class="gbox">
+                    <img src="/image3.jpg" alt="" class="image3">
+                    <span>travel spot</span>
+                    <h3>india</h3>
+                </div>
+            </div>
+            <div class="gbox2">
+                <div data-aos="flip-left" data-aos-delay="450" class="gbox">
+                    <img src="/image6.jpg" alt="" class="image6">
+                    <span>travel spot</span>
+                    <h3>india</h3>
+                </div>
+                <div data-aos="flip-left" data-aos-delay="660" class="gbox">
+                    <img src="/image5.jpg" alt="" class="image5">
+                    <span>travel spot</span>
+                    <h3>india</h3>
+                </div>
+                <div data-aos="flip-left" data-aos-delay="750" class="gbox">
+                    <img src="/image4.jpg" alt="" class="image4">
+                    <span>travel spot</span>
+                    <h3>india</h3>
+                </div>
+            </div>
+            <div class="gbox3">
+                <div data-aos="flip-left" data-aos-delay="900" class="gbox">
+                    <img src="/image7.jpg" alt="" class="image7">
+                    <span>travel spot</span>
+                    <h3>india</h3>
+                </div>
+                <div data-aos="flip-left" data-aos-delay="1050" class="gbox">
+                    <img src="/image8.jpg" alt="" class="image8">
+                    <span>travel spot</span>
+                    <h3>india</h3>
+                </div>
+                <div data-aos="flip-left" data-aos-delay="1050" class="gbox">
+                    <img src="/amarnathskyg6.png" alt="" class="image9">
+                    <span>travel spot</span>
+                    <h3>india</h3>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- banner section  -->
+
+    <div class="banner">
+        <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+            <span>start your adventures</span>
+            <h5>let's explore this world</h5>
+            <p>the life is short and the world is wide , the sooner you start exploring, it will be the better  </p>
+            <a href="loginpage.html" class="btn">login now</a>
+        </div>
+    </div>
+
+    <!-- footer section  -->
+
+    <section class="contact" id="contact">
+        <div class="box-container1">
+            <div class="box-1" data-aos="fade-up" data-aos-delay="150">
+                <a href="#" class="logo"><i class="fas fa-paper-plane"></i> Trip Advisor</a>
+                <p class="followus">Follow us on :-</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box-1" data-aos="fade-up" data-aos-delay="300">
+                <h4>quick links</h4>
+                <a href="#home" class="links"><i class="fas fa-arrow-right"></i><span>home</span></a>
+                <a href="#about" class="links"><i class="fas fa-arrow-right"></i><span>about</span></a>
+                <a href="#destination" class="links"><i class="fas fa-arrow-right"></i><span>destination</span></a>
+                <a href="#services" class="links"><i class="fas fa-arrow-right"></i><span>services</span></a>
+                <a href="#Gallery" class="links"><i class="fas fa-arrow-right"></i><span>gallery</span></a>
+                <a href="#contact" class="links"><i class="fas fa-arrow-right"></i><span>contact</span></a>
+            </div>
+            <div class="box-1" data-aos="fade-up" data-aos-delay="450">
+                <h4>contact info</h4>
+                <p><i class="fa fa-map"></i>punjab,india</p>
+                <p><i class="fa fa-phone"></i>+999-888-7776</p>
+                <p><i class="fa fa-envelope"></i>email@gmail.com</p>
+                <p><i class="fa fa-clock"></i>7:00am - 10:00</p>
+            </div>
+            <div class="box-1" data-aos="fade-up" data-aos-delay="600">
+                <h4>newsletter</h4>
+                <p>sign up for latest updates</p>
+                <form action="">
+                    <input style="margin-top: 1rem;" type="email" name="" placeholder="enter your email" class="email">
+                    <a href="signup.html" class="btn" style="margin-top:2rem;">sign up</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="credit">created by <span>trip Advisor</span> | all rights reserved</div>
+
+
+
+<!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.js"> -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
